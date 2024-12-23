@@ -6,19 +6,31 @@ const StatsOverview = () => {
     <div className='overview'>
       <div className='overview-column'>
         <Users strokeWidth={1} size={50} color='#4464c5'/>
-        <span>Contatos <br /> 567</span>
+        <div>
+          <p>Contatos</p>
+          <span className='overview-number'>567</span>
+        </div>
       </div>
       <div className='overview-column'>
         <UserRoundPen strokeWidth={1} size={50} color='#46af65'/>
-        <span>Lideranças <br /> 51</span>
+        <div>
+          <p>Lideranças</p>
+          <span className='overview-number'>51</span>
+        </div>
       </div>
       <div className='overview-column'>
         <UserRoundPlus strokeWidth={1} size={50} color='#46afa8'/>
-        <span>Últimos 7 dias <br /> 1</span>
+        <div>
+          <p>Últimos 7 dias</p>
+          <span className='overview-number'>1</span>
+        </div>
       </div>
       <div className='overview-column'>
         <UserSearch strokeWidth={1} size={50} color='#dc5050'/>
-        <span>Sem Local <br /> 113</span>
+        <div>
+          <p>Sem Local</p>
+          <span className='overview-number'>113</span>
+        </div>
       </div>
     </div>
   )

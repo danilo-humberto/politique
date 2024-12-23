@@ -25,3 +25,17 @@
     width: 2px;
     background-color: #9a96966d;
   }
+
+  .overview-column > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .overview-column > div > p {
+    color: rgb(136, 129, 129);
+  }
+
+  .overview-number {
+    color: black;
+    margin-top: 5px;
+}

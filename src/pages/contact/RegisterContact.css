@@ -1,0 +1,17 @@
+.register-contact-form {
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.register-contact-form-header {
+    width: 100%;
+    border-bottom: 1px solid rgb(193, 186, 186);
+}
+
+.register-contact-form-header > h2 {
+    padding: 15px;
+    font-size: 16px;
+    width: 170px;
+    border-bottom: 1px solid purple;
+}
