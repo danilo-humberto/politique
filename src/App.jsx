@@ -8,10 +8,12 @@ function App() {
     <>
       <div className="container">
         <Navbar />
-        <main >
+        <div className="content">
           <HeaderComponent />
-          <RoutesPages />
-        </main>
+          <main >
+            <RoutesPages />
+          </main>
+        </div>
       </div>
     </>
   )

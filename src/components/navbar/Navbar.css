@@ -2,7 +2,7 @@ nav {
     width: 300px;
     background-color: white;
     height: 100dvh;
-    overflow: hidden;
+    position: fixed;
 }
 
 .nav-div-img {

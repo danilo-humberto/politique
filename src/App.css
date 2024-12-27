@@ -2,7 +2,11 @@
     display: flex;
 }
 
-.container > main {
+.content {
     flex: 1;
-    overflow-y: auto;
+    margin-left: 15.7%;
+}
+
+.content > main {
+    margin-top: 8em;
 }
