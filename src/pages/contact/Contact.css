@@ -48,12 +48,22 @@
 .contact-list-btns > a > button:nth-child(1) {
     background-color: #5182d2;
     color: white;
+    transition: 0.3s;
+}
+
+.contact-list-btns > a > button:nth-child(1):hover {
+    background-color: #3b78dc;
 }
 
 .contact-list-btns > button:nth-child(2) {
     border: 1px solid #2E75C6;
     background: transparent;
     color: #2E75C6;
+    transition: 0.2s;
+}
+
+.contact-list-btns > button:nth-child(2):hover {
+    background-color: #f0f0f0;
 }
 
 .contact-input {

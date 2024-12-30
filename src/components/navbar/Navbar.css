@@ -86,3 +86,9 @@ nav {
 .navigation ul li:hover > .navigation-text {
     font-weight: 500;
 }
+
+@media (max-width: 1600px) {
+    nav {
+        width: 240px;
+    }
+}
