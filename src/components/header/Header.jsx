@@ -12,19 +12,21 @@ const HeaderComponent = () => {
 
           <div className="input-search">
             <input type="text" placeholder="PROCURAR..." />
-            <Search strokeWidth={1.5} className="icon-search"/>
+            <Search strokeWidth={1.5} className="icon-search" />
           </div>
         </div>
         <div className="right-side">
-            <div className="user">
-                <span>cifra</span>
-                <div className='nav-div-icon-user'><UserRound className='icon-user'/></div>
+          <div className="user">
+            <span>Novo</span>
+            <div className="nav-div-icon-user">
+              <UserRound className="icon-user" />
             </div>
-            <div className="support">
-                <span>suporte</span>
-                <Headset strokeWidth={1.5} className="headset"/>
-            </div>
-            <Bell strokeWidth={1.5} size={32} className="bell"/>
+          </div>
+          <div className="support">
+            <span>suporte</span>
+            <Headset strokeWidth={1.5} className="headset" />
+          </div>
+          <Bell strokeWidth={1.5} size={32} className="bell" />
         </div>
       </section>
     </header>
